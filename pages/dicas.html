@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belezas Naturais da Alemanha</title>
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/dicas.css">
+    <link rel="shortcut icon" href="../assets/germany.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("xTd2kN6OmDu55ertt");
+        })();
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Belezas Naturais da Alemanha</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Início</a>
+                </li>
+                <li>
+                    <a href="descricao.html">Belezas Naturais</a>
+                </li>
+                <li>
+                    <a href="dicas.html">Dicas de Turismo</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="text">
+                <h2>Dicas Essenciais para Explorar a Natureza na Alemanha</h2>
+                <ul>
+                    <li>Visite os parques nacionais fora da alta temporada para evitar multidões.</li>
+                    <li>Esteja preparado para mudanças climáticas, especialmente nas áreas montanhosas.</li>
+                    <li>Explore trilhas locais e aprecie a biodiversidade única do país.</li>
+                </ul>
+                <h3>Curiosidade:</h3>
+                <p>O Rio Reno é considerado um dos rios mais românticos da Europa, com suas paisagens que inspiraram
+                    diversos poetas e pintores ao longo dos séculos.</p>
+            </div>
+            <iframe src="https://www.youtube.com/embed/WjXsCc8CUEw?si=L2Cmmo2WweHfGqhP"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section class="form-container">
+            <div class="divisor">
+                <h3>Fale conosco!</h3>
+            </div>
+            <form>
+                <label for="nome" class="label">Nome:</label>
+                <input type="text" id="nome" name="nome" class="input" required>
+                <label for="email" class="label">Email:</label>
+                <input type="email" id="email" name="email" class="input" required>
+                <label for="telefone" class="label">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" class="input">
+                <label for="texto" class="label">Informe sua dúvida:</label>
+                <textarea id="texto" name="texto" class="textarea" rows="5" cols="33" required></textarea>
+                <button type="submit" class="btn-send">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Belezas Naturais da Alemanha</p>
+    </footer>
+    <script src="../js/form.js"></script>
+</body>
+
+</html>
